@@ -85,13 +85,18 @@
             <div class="logo">
                 <img src="images/logo.png" alt="TinyTripz Logo" class="nav-logo-img">
             </div>
-            <div class="nav-links">
-                <a href="#">Home</a>
-                <a href="#destinationsGrid">Destinations</a>
+            <div class="nav-links" id="navLinks">
+                <a href="#" onclick="closeNav()">Home</a>
+                <a href="#destinationsGrid" onclick="closeNav()">Destinations</a>
                 <button class="nav-contact-btn" id="openContactModal" aria-label="Contact us">
                     <i class="fa-solid fa-envelope"></i> Contact
                 </button>
             </div>
+            <button class="hamburger" id="hamburgerBtn" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </nav>
         <div class="hero-content">
             <h1>Discover Your Next Local Adventure</h1>
@@ -190,6 +195,21 @@
 
     <script src="script.js"></script>
     <script>
+        // Hamburger Menu Toggle
+        const hamburgerBtn = document.getElementById('hamburgerBtn');
+        const navLinks = document.getElementById('navLinks');
+
+        hamburgerBtn.addEventListener('click', () => {
+            hamburgerBtn.classList.toggle('open');
+            navLinks.classList.toggle('open');
+        });
+
+        function closeNav() {
+            hamburgerBtn.classList.remove('open');
+            navLinks.classList.remove('open');
+        }
+
+
         // Contact Modal Logic
         const contactModal = document.getElementById('contactModal');
         const openBtn = document.getElementById('openContactModal');
