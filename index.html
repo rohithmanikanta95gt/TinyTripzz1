@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XH569D6CWV"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-XH569D6CWV');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ✅ SEO: Primary Meta Tags -->
+    <title>TinyTripz | Weekend Getaways & Local Transit Routes Near Chennai</title>
+    <meta name="description" content="Plan your perfect 2-day weekend trip from Chennai. Discover the best beaches, wildlife parks, and temples near Simats with exact bus numbers, auto routes, entry fees, and timings.">
+    <meta name="keywords" content="weekend trip Chennai, local getaways Simats, bus routes Chennai, budget travel Tamil Nadu, 2 day trip near Chennai, transit guide">
+    <meta name="author" content="TinyTripz">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://tinytripzz.netlify.app/">
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <link rel="apple-touch-icon" href="images/logo.png">
+
+    <!-- ✅ SEO: Open Graph (Facebook, WhatsApp) -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tinytripzz.netlify.app/">
+    <meta property="og:title" content="TinyTripz | Exact Transit Routes for Weekend Trips Near Chennai">
+    <meta property="og:description" content="Stop guessing the bus route. Get exact timings, ticket prices, and multi-step transit routes for local weekend getaways near Simats.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1506461883276-594a12b11dc3?q=80&w=1200&auto=format&fit=crop">
+    <meta property="og:locale" content="en_IN">
+    <meta property="og:site_name" content="TinyTripz">
+
+    <!-- ✅ SEO: Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="TinyTripz | Weekend Getaways & Local Transit Routes Near Chennai">
+    <meta name="twitter:description" content="Plan your next 2-day trip with exact bus numbers, ticket prices, and transit routes from Simats.">
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1506461883276-594a12b11dc3?q=80&w=1200&auto=format&fit=crop">
+
+    <!-- ✅ SEO: Structured Data (Schema.org) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "TinyTripz",
+      "url": "https://tinytripzz.netlify.app",
+      "description": "Local weekend getaway and transit planner for students near Chennai. Find exact bus routes, ticket prices, and timings.",
+      "inLanguage": "en-IN",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "College Students"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://tinytripzz.netlify.app/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "TouristInformationCenter",
+      "name": "TinyTripz",
+      "description": "Curated weekend getaway guide with transit routes from Simats, Chennai.",
+      "url": "https://tinytripzz.netlify.app",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Chennai",
+        "addressRegion": "Tamil Nadu",
+        "addressCountry": "IN"
+      }
+    }
+    </script>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="hero">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="images/logo.png" alt="TinyTripz Logo" class="nav-logo-img">
+            </div>
+            <div class="nav-links">
+                <a href="#">Home</a>
+                <a href="#destinationsGrid">Destinations</a>
+                <button class="nav-contact-btn" id="openContactModal" aria-label="Contact us">
+                    <i class="fa-solid fa-envelope"></i> Contact
+                </button>
+            </div>
+        </nav>
+        <div class="hero-content">
+            <h1>Discover Your Next Local Adventure</h1>
+            <p>Plan your perfect holiday trip with precise, multi-step local transit(even Bus) routes.</p>
+
+        </div>
+        <div class="hero-overlay"></div>
+    </header>
+
+    <main class="container">
+        <section class="results-section">
+            <div class="section-header">
+                <h2 class="section-title">Suggested Getaways Near You</h2>
+                <p class="section-subtitle">Explore curated trips complete with ticket prices, timings, and transit routes.</p>
+            </div>
+            
+            <div class="filters">
+                <button class="filter-btn active" data-filter="all"><i class="fa-solid fa-border-all"></i> All</button>
+                <button class="filter-btn" data-filter="wildlife"><i class="fa-solid fa-paw"></i> Wildlife</button>
+                <button class="filter-btn" data-filter="museum"><i class="fa-solid fa-building-columns"></i> Museums</button>
+                <button class="filter-btn" data-filter="beach"><i class="fa-solid fa-umbrella-beach"></i> Beaches</button>
+                <button class="filter-btn" data-filter="mountain"><i class="fa-solid fa-mountain-sun"></i> Mountains</button>
+                <button class="filter-btn" data-filter="temple"><i class="fa-solid fa-place-of-worship"></i> Temples</button>
+                <button class="filter-btn" data-filter="amusement"><i class="fa-solid fa-face-grin-stars"></i> Amusement</button>
+                <button class="filter-btn" data-filter="garden"><i class="fa-solid fa-seedling"></i> Gardens</button>
+
+            </div>
+            
+            <div class="destinations-grid" id="destinationsGrid">
+                <!-- Cards injected here -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal -->
+    <div class="modal-overlay" id="routeModal">
+        <div class="modal-content">
+            <button class="close-modal" id="closeModal"><i class="fa-solid fa-xmark"></i></button>
+            
+            <div class="modal-header">
+                <img src="" alt="Destination" id="modalImage">
+                <div class="modal-header-text">
+                    <span class="modal-category" id="modalCategory">Category</span>
+                    <h2 id="modalTitle">Destination Title</h2>
+                    <div class="tags">
+                        <span class="tag"><i class="fa-regular fa-clock"></i> <span id="modalTimings">09:00 AM - 05:00 PM</span></span>
+                        <span class="tag"><i class="fa-solid fa-ticket"></i> <span id="modalPrice">₹50</span></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-body">
+                <h3><i class="fa-solid fa-map-location-dot"></i> Your Travel Route</h3>
+                <p class="route-subtitle">Estimated Total Distance: <span id="modalDistance">0 km</span></p>
+                <div class="route-timeline" id="routeTimeline">
+                    <!-- Timeline items generated by JS -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ✉️ Contact Modal -->
+    <div class="modal-overlay" id="contactModal" role="dialog" aria-modal="true" aria-labelledby="contactModalTitle">
+        <div class="modal-content contact-modal-content">
+            <button class="close-modal" id="closeContactModal" aria-label="Close contact form"><i class="fa-solid fa-xmark"></i></button>
+            <div class="contact-modal-header">
+                <div class="contact-icon-wrap"><i class="fa-solid fa-paper-plane"></i></div>
+                <h2 id="contactModalTitle">Get in Touch</h2>
+                <p>Have a suggestion, found a better route, or just want to say hi? We'd love to hear from you!</p>
+            </div>
+            <form id="contactForm" class="contact-form" action="https://formspree.io/f/xreydlen" method="POST" novalidate>
+                <!-- Formspree hidden redirect field -->
+                <input type="hidden" name="_replyto" value="pandurellu3@gmail.com">
+                <input type="hidden" name="_subject" content="New message from TinyTripz!">
+                <div class="form-group">
+                    <label for="contactName"><i class="fa-solid fa-user"></i> Your Name</label>
+                    <input type="text" id="contactName" name="name" placeholder="E.g. Arjun Kumar" required autocomplete="name">
+                </div>
+                <div class="form-group">
+                    <label for="contactEmail"><i class="fa-solid fa-envelope"></i> Email Address</label>
+                    <input type="email" id="contactEmail" name="email" placeholder="you@example.com" required autocomplete="email">
+                </div>
+                <div class="form-group">
+                    <label for="contactMessage"><i class="fa-solid fa-comment-dots"></i> Message</label>
+                    <textarea id="contactMessage" name="message" rows="4" placeholder="Tell us about a great weekend spot, a bus route tip, or anything else..." required></textarea>
+                </div>
+                <button type="submit" class="contact-submit-btn">
+                    <i class="fa-solid fa-paper-plane"></i> Send Message
+                </button>
+                <p class="form-success-msg" id="formSuccessMsg" style="display:none;">
+                    <i class="fa-solid fa-circle-check"></i> Message sent! We'll get back to you soon.
+                </p>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        // Contact Modal Logic
+        const contactModal = document.getElementById('contactModal');
+        const openBtn = document.getElementById('openContactModal');
+        const closeBtn = document.getElementById('closeContactModal');
+        const contactForm = document.getElementById('contactForm');
+        const successMsg = document.getElementById('formSuccessMsg');
+
+        openBtn.addEventListener('click', () => {
+            contactModal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        });
+
+        function closeContactModal() {
+            contactModal.classList.remove('active');
+            document.body.style.overflow = '';
+        }
+
+        closeBtn.addEventListener('click', closeContactModal);
+        contactModal.addEventListener('click', (e) => {
+            if (e.target === contactModal) closeContactModal();
+        });
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && contactModal.classList.contains('active')) closeContactModal();
+        });
+
+        // Handle Formspree AJAX submission
+        contactForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const submitBtn = contactForm.querySelector('.contact-submit-btn');
+            submitBtn.disabled = true;
+            submitBtn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Sending...';
+            try {
+                const response = await fetch(contactForm.action, {
+                    method: 'POST',
+                    body: new FormData(contactForm),
+                    headers: { 'Accept': 'application/json' }
+                });
+                if (response.ok) {
+                    contactForm.reset();
+                    successMsg.style.display = 'flex';
+                    submitBtn.innerHTML = '<i class="fa-solid fa-paper-plane"></i> Send Message';
+                    submitBtn.disabled = false;
+                    setTimeout(() => { successMsg.style.display = 'none'; }, 5000);
+                } else {
+                    throw new Error('Server error');
+                }
+            } catch (err) {
+                submitBtn.innerHTML = '<i class="fa-solid fa-triangle-exclamation"></i> Failed. Try again.';
+                submitBtn.disabled = false;
+            }
+        });
+    </script>
+</body>
+</html>
