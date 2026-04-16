@@ -217,7 +217,9 @@
         const contactForm = document.getElementById('contactForm');
         const successMsg = document.getElementById('formSuccessMsg');
 
-        openBtn.addEventListener('click', () => {
+        openBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            closeNav(); // Close the mobile menu if open
             contactModal.classList.add('active');
             document.body.style.overflow = 'hidden';
         });

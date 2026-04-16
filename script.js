@@ -19,7 +19,7 @@ const destinations = [
         id: 2,
         title: "Birla Planetarium",
         category: "museum",
-        image: "https://indiano.travel/wp-content/uploads/2022/04/Beautiful-facade-at-the-Chennai-Government-Museum-Tamil-Nadu-India.jpg",
+        image: "New images/birla.png",
         time: "10:00 AM - 05:45 PM",
         price: "₹60 per head",
         speciality: "Science & Stars",
@@ -51,7 +51,7 @@ const destinations = [
         id: 4,
         title: "Marina Beach",
         category: "beach",
-        image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=2073&auto=format&fit=crop",
+        image: "New images/marina beach.png",
         time: "Open 24/7",
         price: "Free Entry",
         speciality: "India's Longest Beach",
@@ -67,7 +67,7 @@ const destinations = [
         id: 5,
         title: "Mahabalipuram Shore Temple",
         category: "mountain",
-        image: "https://images.unsplash.com/photo-1595815771614-ade9d652a65d?q=80&w=2070&auto=format&fit=crop",
+        image: "New images/Mahabalipuram.png",
         time: "06:00 AM - 06:00 PM",
         price: "₹40 (Indians) / ₹600 (Foreigners)",
         speciality: "UNESCO World Heritage",
@@ -100,7 +100,7 @@ const destinations = [
         id: 7,
         title: "Arunachalam Temple – Tiruvannamalai",
         category: "temple",
-        image: "https://t4.ftcdn.net/jpg/16/89/88/55/360_F_1689885560_mwtTwTxqyJHs0wwYSNToG9wpd9jS8gOb.jpg",
+        image: "New images/Arunachalesvara-Temple.jpg.jpeg",
         time: "05:30 AM - 10:00 PM",
         price: "Free Entry",
         speciality: "Pancha Bhoota Sthalam",
@@ -131,7 +131,7 @@ const destinations = [
         id: 9,
         title: "Parthasarathy Temple – Triplicane",
         category: "temple",
-        image: "https://t4.ftcdn.net/jpg/16/89/88/55/360_F_1689885560_mwtTwTxqyJHs0wwYSNToG9wpd9jS8gOb.jpg",
+        image: "New images/Parthasathy temple.png",
         time: "07:00 AM - 12:00 PM, 04:00 PM - 08:30 PM",
         price: "Free Entry",
         speciality: "8th Century Krishna Temple",
@@ -147,7 +147,7 @@ const destinations = [
         id: 10,
         title: "Kamakshi Amman Temple – Kanchipuram",
         category: "temple",
-        image: "https://t4.ftcdn.net/jpg/16/89/88/55/360_F_1689885560_mwtTwTxqyJHs0wwYSNToG9wpd9jS8gOb.jpg",
+        image: "New images/kamakshi amman temple.png",
         time: "05:30 AM - 12:30 PM, 04:00 PM - 08:30 PM",
         price: "Free Entry",
         speciality: "Powerful Shakti Peetham",
@@ -164,7 +164,7 @@ const destinations = [
         id: 11,
         title: "Kundrathur Murugan Temple",
         category: "temple",
-        image: "https://t4.ftcdn.net/jpg/16/89/88/55/360_F_1689885560_mwtTwTxqyJHs0wwYSNToG9wpd9jS8gOb.jpg",
+        image: "New images/kundrathur murugan temple.png",
         time: "06:00 AM - 12:00 PM, 04:00 PM - 08:30 PM",
         price: "Free Entry",
         speciality: "Hilltop Murugan Shrine",
@@ -180,7 +180,7 @@ const destinations = [
         id: 12,
         title: "ISKCON Temple – Sholinganallur",
         category: "temple",
-        image: "https://t4.ftcdn.net/jpg/16/89/88/55/360_F_1689885560_mwtTwTxqyJHs0wwYSNToG9wpd9jS8gOb.jpg",
+        image: "New images/ISKCON.png",
         time: "04:30 AM - 01:00 PM, 04:30 PM - 08:30 PM",
         price: "Free Entry",
         speciality: "Grand Radha Krishna",
@@ -196,7 +196,7 @@ const destinations = [
         id: 13,
         title: "Queensland Amusement Park",
         category: "amusement",
-        image: "https://plus.unsplash.com/premium_photo-1687279092363-4358de4bb58c?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YW11c2VtZW50JTIwcGFya3xlbnwwfHwwfHx8MA%3D%3D",
+        image: "New images/Queens amusement.png",
         time: "10:30 AM - 07:00 PM",
         price: "₹750–₹900 (Entry ticket)",
         speciality: "Water & Fun Rides",
@@ -210,7 +210,7 @@ const destinations = [
         id: 14,
         title: "Arignar Anna Zoological Park",
         category: "wildlife",
-        image: "https://images.unsplash.com/photo-1503919005314-30d93d07d823?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8em9vfGVufDB8fDB8fHww",
+        image: "New images/Arignar Anna park.png",
         time: "09:00 AM - 05:00 PM (Tue Closed)",
         price: "₹80 (Adults) / ₹30 (Kids)",
         speciality: "India's Largest Zoo",
@@ -240,7 +240,7 @@ const destinations = [
         id: 16,
         title: "Semmozhi Poonga Botanical Garden",
         category: "garden",
-        image: "https://media.istockphoto.com/id/157481806/photo/garden-flowers-xxxl.jpg?s=612x612&w=0&k=20&c=yGRrzhdpp1fprkEBl_5Dsctz6twbbD-gxVtZB1pTBUo=",
+        image: "New images/semmozhi park.png",
         time: "10:00 AM - 07:30 PM (Closed on Tuesdays)",
         price: "₹20 (Adults) / ₹10 (Children)",
         speciality: "500+ Plant Varieties",
@@ -256,7 +256,7 @@ const destinations = [
         id: 17,
         title: "Kalaignar Centenary Park",
         category: "garden",
-        image: "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?q=80&w=2070&auto=format&fit=crop",
+        image: "New images/Kalaignar centenary park.png",
         time: "06:00 AM - 08:00 PM",
         price: "₹100 (Adults) / ₹50 (Children)",
         speciality: "Modern Eco Park",
@@ -288,7 +288,7 @@ const destinations = [
         id: 19,
         title: "Birla Planetarium – Science Centre",
         category: "museum",
-        image: "https://indiano.travel/wp-content/uploads/2022/04/Beautiful-facade-at-the-Chennai-Government-Museum-Tamil-Nadu-India.jpg",
+        image: "New images/birla.png",
         time: "10:00 AM - 05:45 PM",
         price: "₹60 (Adults) / ₹30–₹40 (Students)",
         speciality: "3D Sky Theatre",
@@ -333,7 +333,7 @@ const destinations = [
         id: 22,
         title: "Natesan Park – T. Nagar",
         category: "garden",
-        image: "https://images.unsplash.com/photo-1575783970733-1aaedde1db74?q=80&w=2076&auto=format&fit=crop",
+        image: "New images/Natesan Park.png",
         time: "06:00 AM - 08:00 PM",
         price: "Free Entry",
         speciality: "Peaceful City Garden",
@@ -348,7 +348,7 @@ const destinations = [
         id: 23,
         title: "MGM Dizzee World",
         category: "amusement",
-        image: "https://plus.unsplash.com/premium_photo-1687279092363-4358de4bb58c?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YW11c2VtZW50JTIwcGFya3xlbnwwfHwwfHx8MA%3D%3D",
+        image: "New images/MGM dizze world.png",
         time: "10:30 AM - 06:30 PM",
         price: "₹700–₹800 (Adults) / ₹500–₹600 (Children)",
         speciality: "Thrilling Water Rides",
@@ -364,7 +364,7 @@ const destinations = [
         id: 24,
         title: "VGP Universal Kingdom",
         category: "amusement",
-        image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=2073&auto=format&fit=crop",
+        image: "New images/VGP universal kingdom.png",
         time: "10:00 AM - 06:00 PM",
         price: "₹600–₹700 (Adults) / ₹500–₹550 (Children)",
         speciality: "Chennai's Oldest Theme Park",
@@ -380,7 +380,7 @@ const destinations = [
         id: 25,
         title: "Kishkinta Theme Park",
         category: "amusement",
-        image: "https://images.unsplash.com/photo-1575783970733-1aaedde1db74?q=80&w=2076&auto=format&fit=crop",
+        image: "New images/kishkinda theme park.png",
         time: "10:00 AM - 06:00 PM",
         price: "₹700–₹800 (Adults) / ₹600–₹650 (Children)",
         speciality: "Wave Pools & Rides",
@@ -410,7 +410,7 @@ const destinations = [
         id: 27,
         title: "Chennai Citi Centre Mall",
         category: "shopping",
-        image: "https://images.unsplash.com/photo-1555529669-2269763671c0?q=80&w=2070&auto=format&fit=crop",
+        image: "New images/chennai centre mall.png",
         time: "10:00 AM - 10:00 PM",
         price: "Free Entry",
         speciality: "Near Marina & Mylapore",
@@ -426,7 +426,7 @@ const destinations = [
         id: 28,
         title: "Ampa Skywalk Mall",
         category: "shopping",
-        image: "https://images.unsplash.com/photo-1519567241046-7f570eee3ce6?q=80&w=2070&auto=format&fit=crop",
+        image: "New images/ampa sky mall.png",
         time: "10:00 AM - 10:00 PM",
         price: "Free Entry",
         speciality: "Iconic Skywalk Design",
@@ -456,7 +456,7 @@ const destinations = [
         id: 30,
         title: "Mayajaal Entertainment Complex",
         category: "amusement",
-        image: "https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?q=80&w=2070&auto=format&fit=crop",
+        image: "New images/mayazaal entertainment complex.png",
         time: "10:00 AM - 11:00 PM",
         price: "Free Entry (Pay per activity)",
         speciality: "Mega Multiplex & Gaming",
@@ -472,7 +472,7 @@ const destinations = [
         id: 31,
         title: "VR Gaming Zone – VR Mall",
         category: "amusement",
-        image: "https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?q=80&w=2070&auto=format&fit=crop",
+        image: "New images/VR gaming zone-VR mall.png",
         time: "10:00 AM - 10:00 PM",
         price: "₹150–₹300 per game / ₹400–₹500 (Premium VR)",
         speciality: "Immersive VR Experience",
@@ -487,7 +487,7 @@ const destinations = [
         id: 32,
         title: "Blitz Go-Karting Track",
         category: "amusement",
-        image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=2070&auto=format&fit=crop",
+        image: "New images/Blitz Go-Karting Track.png",
         time: "10:00 AM - 09:00 PM",
         price: "₹250–₹400 (per session, based on laps)",
         speciality: "Real Kart Racing",
@@ -657,25 +657,49 @@ function openModal(dest) {
     
     modal.classList.add('active');
     document.body.style.overflow = 'hidden';
+    // Push a new history state so the browser back button closes the modal
+    history.pushState({ modalOpen: true, destId: dest.id }, '', '#destination-' + dest.id);
+}
+
+function closeRouteModal() {
+    modal.classList.remove('active');
+    document.body.style.overflow = 'auto';
 }
 
 closeModal.addEventListener('click', () => {
-    modal.classList.remove('active');
-    document.body.style.overflow = 'auto';
+    // Go back in history — the popstate handler will close the modal
+    if (history.state && history.state.modalOpen) {
+        history.back();
+    } else {
+        closeRouteModal();
+    }
 });
 
 modal.addEventListener('click', (e) => {
     if (e.target === modal) {
-        modal.classList.remove('active');
-        document.body.style.overflow = 'auto';
+        if (history.state && history.state.modalOpen) {
+            history.back();
+        } else {
+            closeRouteModal();
+        }
+    }
+});
+
+// Browser / Android back button: close modal instead of leaving the page
+window.addEventListener('popstate', (e) => {
+    if (modal.classList.contains('active')) {
+        closeRouteModal();
     }
 });
 
 // Use Escape key to close modal
 document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape' && modal.classList.contains('active')) {
-        modal.classList.remove('active');
-        document.body.style.overflow = 'auto';
+        if (history.state && history.state.modalOpen) {
+            history.back();
+        } else {
+            closeRouteModal();
+        }
     }
 });
 
@@ -687,7 +711,10 @@ filterBtns.forEach(btn => {
     });
 });
 
-
-
 // Initial render
 renderDestinations();
+
+// On page load, if the URL has a #destination- hash, clear it cleanly
+if (window.location.hash && window.location.hash.startsWith('#destination-')) {
+    history.replaceState({}, '', window.location.pathname);
+}

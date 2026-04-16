@@ -235,7 +235,8 @@ h1, h2, h3, h4 {
     display: flex;
     align-items: center;
     gap: 8px;
-    background: var(--white);
+    background: transparent;
+    backdrop-filter: blur(8px);
     border: 1px solid var(--light-gray);
     color: var(--dark-muted);
     padding: 10px 24px;
@@ -248,6 +249,7 @@ h1, h2, h3, h4 {
 }
 
 .filter-btn:hover {
+    background: rgba(255, 255, 255, 0.5);
     border-color: var(--primary-light);
     color: var(--primary);
 }
@@ -792,7 +794,7 @@ h1, h2, h3, h4 {
 .contact-modal-content {
     max-width: 520px !important;
     border-radius: 24px !important;
-    overflow: hidden;
+    overflow-y: auto;
     transform: translateY(30px) scale(0.95);
 }
 
@@ -963,6 +965,9 @@ h1, h2, h3, h4 {
     .nav-links.open {
         max-height: 300px;
         padding: 12px 0 20px;
+        background: linear-gradient(135deg, rgba(79, 70, 229, 0.95), rgba(55, 48, 163, 0.95)); /* primary to primary-dark */
+        border-top: 2px solid var(--accent);
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
     }
 
     .nav-links a {
@@ -970,12 +975,37 @@ h1, h2, h3, h4 {
         font-size: 1.1rem;
         border-bottom: 1px solid rgba(255,255,255,0.08);
         width: 100%;
+        display: block;
+        color: rgba(255,255,255,0.92);
+        /* Make sure tapping works */
+        pointer-events: auto;
+        -webkit-tap-highlight-color: rgba(99,102,241,0.25);
+        cursor: pointer;
+        transition: background 0.2s, color 0.2s, padding-left 0.2s;
+    }
+
+    .nav-links a:hover,
+    .nav-links a:active {
+        background: rgba(99, 102, 241, 0.18);
+        color: var(--white);
+        padding-left: 32px;
     }
 
     .nav-links .nav-contact-btn {
         margin: 16px 20px 0;
         justify-content: center;
         width: calc(100% - 40px);
+        pointer-events: auto;
+        -webkit-tap-highlight-color: rgba(255,255,255,0.15);
+        background: rgba(99,102,241,0.25);
+        border-color: rgba(255,255,255,0.5);
+    }
+
+    .nav-links .nav-contact-btn:hover,
+    .nav-links .nav-contact-btn:active {
+        background: var(--white);
+        color: var(--primary);
+        border-color: var(--white);
     }
 
     .filters { flex-wrap: nowrap; overflow-x: auto; justify-content: flex-start; padding-bottom: 10px; }
